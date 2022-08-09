@@ -9,7 +9,6 @@ export default function UseEffect() {
 
   useEffect(() => {
     console.log("useEffect code runs");
-
     window.addEventListener("resize", updateWindowWidth);
     return () => {
       console.log("cleanup code runs");
