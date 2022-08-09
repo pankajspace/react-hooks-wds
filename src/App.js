@@ -5,6 +5,7 @@ import UseMemo from "./UseMemo";
 import UseState from "./UseState";
 import UseEffect from "./UseEffect";
 import { UseRef1, UseRef2, UseRef3 } from "./UseRef";
+import { UseContext1 } from "./UseContext1";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <UseEffect></UseEffect> */}
       {/* <UseRef1></UseRef1> */}
       {/* <UseRef2></UseRef2> */}
-      <UseRef3></UseRef3>
+      {/* <UseRef3></UseRef3> */}
+      <UseContext1></UseContext1>
     </div>
   );
 }
